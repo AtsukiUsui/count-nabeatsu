@@ -26,6 +26,7 @@ if __name__ == '__main__':
         pub.publish(3)
         
     else:
+        print ("  ( o     o )",n)
         pub.publish(n)
 
       
