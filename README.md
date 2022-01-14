@@ -1,9 +1,10 @@
-# pkg
+# count-nabeatsu
 
-10Hzごとカウントするプログラムとカウントした数字を２倍にして表示するプログラムである。
+1Hzごとカウントするプログラムとカウントした数字が３の倍数であるとき数字を殴るナベアツを表示するプログラムである。
 
 # 実行動画
-Youtube：https://youtu.be/uG8KJMTP5lk
+Youtube：https://youtu.be/xps_Iwk5s80
+(過去動画：https://youtu.be/uG8KJMTP5lk)
 
 # 環境
 
@@ -23,7 +24,7 @@ $ cd ~/catkin_ws/src/
 $ git clone git@github.com:Raspberrypi-kaihatsu/mypkg1.git
 $ cd dice/scripts/
 $ chmod +x count.py
-$ chmod +x twice.py
+$ chmod +x nabeastsu.py
 ```
 
 
@@ -33,7 +34,7 @@ $ chmod +x twice.py
 $ rosrun count.py
 ```
 ```
-$ rosrun twice.py
+$ rosrun nabeatsu.py
 ```
 
 
