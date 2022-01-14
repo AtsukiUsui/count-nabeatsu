@@ -21,7 +21,7 @@ if __name__ == '__main__':
    rate = rospy.Rate(1)
    while not rospy.is_shutdown():
      
-    if n % 3 == 1:
+    if n % 3 == 0:
         print ("ヽ(∴｀┏Д┓´)ﾉ彡",n) #←世界のナベアツです
         pub.publish(3)
         
